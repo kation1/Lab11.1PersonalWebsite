@@ -1,27 +1,38 @@
 html{
     height: 100%;
     margin: auto;
-  
+	
     overflow: scroll
+}
+body
+{
+		background-color: bccad6;
 }
 ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 24%;
   position: fixed;
   height: 100%;
+  background-color: 667292;
 
 }
 ul.navbar li a{
+	margin-left:5%;
+	margin-top:5%;
+	margin-right:5%;
 	display: block;
+	background-color:8d9db6;
 	
 }
 div.content{
 margin-left:25%;
-position:fixed;
+
 margin-top:20px;
 margin-right:5%;
+margin-bottom:5%;
+background-color: f1e3dd;
 }
 h1 {
     font-family: Helvetica, Geneva, Arial,
